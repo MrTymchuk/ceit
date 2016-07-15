@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/base.min.css">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#36bde8">
+    <meta name="apple-mobile-web-app-title" content="CEIT">
+    <meta name="application-name" content="CEIT">
+    <meta name="theme-color" content="#ffffff">
+    <title>CEIT - Develop </title>
+  </head>
+  <body>
+    <header data-wow-duration=".4s" data-wow-delay=".3s" class="animated wow fadeInDownBig">
+      <div class="container">
+        <div class="logo"><a href="#"><span class="logotype"></span></a></div>
+        <div class="contact"><a href="mailto:hello@ceitdev.com" class="email">hello@ceitdev.com<img src="images/mail.svg" class="icon-email"></a><a href="tel:" class="number">+38(067)-655-55-55<img src="images/phone.svg" class="icon-number"></a></div>
+        <div class="logo-board"></div>
+      </div>
+    </header>
+    <div class="screen __cover">
+      <div class="container">
+        <div class="cover-content">
+          <div data-wow-duration="0.8s" data-wow-delay="1.2s" class="company col-xs-12 wow bounceInDown">
+            <h1 class="up">Мы выполняем обещанное</h1><br>
+            <h1 class="down">с первого раза и точно в срок</h1>
+            <div class="contact contact-mob col-sx-12"><a href="mailto:hello@ceitdev.com" class="email">hello@ceitdev.com<img src="images/mail.svg" class="icon-email"></a></div>
+            <div id="mg" class="contact contact-mob col-sx-12"><a href="tel:" class="number">+38(067)-655-55-55<img src="images/phone.svg" class="icon-number"></a></div>
+          </div>
+        </div>
+        <div data-wow-duration="2.4s" data-wow-delay="1s" class="callback wow fadeIn">
+          <div class="order">
+            <button data-toggle="modal" data-target="#request" class="btn btn-default">Оставить заявку</button>
+          </div>
+          <div class="presentation">
+            <button class="btn btn-present">Скачать презентацию</button>
+          </div>
+        </div>
+      </div>
+      <div role="dialog" id="request" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+              <h4>Оставить Заявку</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="usr">Имя:</label>
+                <input id="usr" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="tel">Телефон:</label>
+                <input id="tel" type="tel" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="tel">Email:</label>
+                <input id="tel" type="mail" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="sel1">Услуга:</label>
+                <select id="sel1" class="form-control">
+                  <option>Дизайн</option>
+                  <option>User Experience</option>
+                  <option>Прототипирование</option>
+                  <option>Айдентика</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="comment">Комментарий:</label>
+                <textarea id="comment" rows="3" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-present">отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <h2 data-wow-duration=".4s" data-wow-delay=".8s" class="services wow bounceInLeft">Наши услуги</h2>
+        <div class="col-md-12">
+          <nav>
+            <ul data-wow-duration="1.4s" data-wow-delay=".8s" class="wow bounceInLeft">
+              <li><a href="#" target="_blank">Дизайн</a></li>
+              <li><a href="#" target="_blank">User Experience</a></li>
+              <li><a href="#" target="_blank">Прототипирование</a></li>
+              <li><a href="#" target="_blank">Айдентика</a></li>
+              <li><a href="#" target="_blank">Сайты</a></li>
+            </ul>
+            <ul data-wow-duration="1.4s" data-wow-delay=".8s" class="wow bounceInLeft">
+              <li><a href="#" target="_blank">Адаптивные сайты</a></li>
+              <li><a href="#" target="_blank">Промо-сайты</a></li>
+              <li><a href="#" target="_blank">Landing Pages</a></li>
+              <li><a href="#" target="_blank">Верстка сайтов</a></li>
+              <li><a href="#" target="_blank">Поддержка</a></li>
+            </ul>
+            <ul data-wow-duration="1.2s" data-wow-delay=".8s" class="wow bounceInLeft">
+              <li><a href="#" target="_blank">Мобильные приложения (iOS "&" Android)</a></li>
+              <li><a href="#" target="_blank">Мобильные интернет-магазины</a></li>
+              <li><a href="#" target="_blank">PHP Backend</a></li>
+              <li class="last"><a href="#" target="_blank">Java BackEnd</a></li>
+            </ul>
+            <ul data-wow-duration=".8s" data-wow-delay=".8s" class="wow bounceInLeft">
+              <li><a href="#" target="_blank">SEO-оптимизация сайтов</a></li>
+              <li><a href="#" target="_blank">Контекстная реклама Google и Yandex</a></li>
+              <li><a href="#" target="_blank">Написание продающего контента</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="scripts/base.min.js"></script>
+    <script type="text/javascript">
+      wow = new WOW(
+      {
+      	boxClass:     'wow',      // default
+      	animateClass: 'animated', // default
+      	offset:       90,          // default
+      	mobile:       true,       // default
+      	live:         true        // default
+      }
+      )
+      wow.init(); 
+    </script>
+  </body>
+</html>
